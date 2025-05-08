@@ -20,8 +20,9 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import cima from '../assets/cima.png';
 
-export default {
+const images = {
   bg,
   chef,
   G,
@@ -44,4 +45,7 @@ export default {
   sign,
   quote,
   gericht,
+  cima,
 };
+
+export default images;
