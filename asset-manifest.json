@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cima-bar/static/css/main.9871b411.css",
+    "main.css": "/cima-bar/static/css/main.3e426b73.css",
     "main.js": "/cima-bar/static/js/main.a08c2ee9.js",
     "static/media/meal.mp4": "/cima-bar/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/cima-bar/static/media/bg.3d421b1b5682e1b67deb.png",
@@ -25,11 +25,11 @@
     "static/media/sign.png": "/cima-bar/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/cima-bar/index.html",
     "static/media/spoon.svg": "/cima-bar/static/media/spoon.b5681c867bb867d794693513d048401f.svg",
-    "main.9871b411.css.map": "/cima-bar/static/css/main.9871b411.css.map",
+    "main.3e426b73.css.map": "/cima-bar/static/css/main.3e426b73.css.map",
     "main.a08c2ee9.js.map": "/cima-bar/static/js/main.a08c2ee9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9871b411.css",
+    "static/css/main.3e426b73.css",
     "static/js/main.a08c2ee9.js"
   ]
 }
