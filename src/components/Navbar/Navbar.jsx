@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 
@@ -15,28 +16,25 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#home">Home</a>
+          <Link to="/">Inicio</Link>
         </li>
         <li className="p__opensans">
-          <a href="#about">About</a>
+          <Link to="/menu">Menu</Link>
         </li>
         <li className="p__opensans">
-          <a href="#menu">Menu</a>
+          <Link to="/gallery">Galeria</Link>
         </li>
         <li className="p__opensans">
-          <a href="#award">Awards</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#contact">Contact</a>
+          <Link to="/contact">Contacto</Link>
         </li>
       </ul>
       <div className="app__navbar-login">
         <a href="#login" className="p__opensans">
-          Menu
+          Delivey
         </a>
         <div />
         <a href="/" className="p__opensans">
-          Contacto
+          Reserva
         </a>
       </div>
       <div className="app__navbar-smallscreen">
@@ -55,29 +53,24 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home" onClick={() => setToggleMenu(false)}>
-                  Home
-                </a>
+                <Link to="/" onClick={() => setToggleMenu(false)}>
+                  Inicio
+                </Link>
               </li>
               <li className="p__opensans">
-                <a href="#about" onClick={() => setToggleMenu(false)}>
-                  About
-                </a>
-              </li>
-              <li className="p__opensans">
-                <a href="#menu" onClick={() => setToggleMenu(false)}>
+                <Link to="/menu" onClick={() => setToggleMenu(false)}>
                   Menu
-                </a>
+                </Link>
               </li>
               <li className="p__opensans">
-                <a href="#award" onClick={() => setToggleMenu(false)}>
-                  Awards
-                </a>
+                <Link to="gallery" onClick={() => setToggleMenu(false)}>
+                  Galeria
+                </Link>
               </li>
               <li className="p__opensans">
-                <a href="#contact" onClick={() => setToggleMenu(false)}>
-                  Contact
-                </a>
+                <Link to="contact" onClick={() => setToggleMenu(false)}>
+                  Contacto
+                </Link>
               </li>
             </ul>
           </div>

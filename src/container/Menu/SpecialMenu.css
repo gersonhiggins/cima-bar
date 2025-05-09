@@ -14,7 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .app__specialMenu-menu_heading {
@@ -48,6 +48,10 @@
   flex-direction: column;
   margin: 2rem 0;
   width: 100%;
+}
+
+.app__specialMenu_menu_items p {
+  text-transform: none;
 }
 
 @media screen and (max-width: 2000px) {
