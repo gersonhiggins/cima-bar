@@ -1,6 +1,5 @@
 import images from './images';
 
-
 const breakfast = [
   {
     title: 'Empanadas Moteras',
@@ -60,7 +59,7 @@ const almuerzo = [
   },
   {
     title: 'Parrilla Motera',
-    price: '€5',
+    price: '€8.5',
     tags: '250g de solomo al carbón, pollo y chorizo ahumado, acompañada pimentón, cebolla, tomate salteado, yuca y guasacaca de la casa.',
   },
   {
@@ -78,7 +77,7 @@ const almuerzo = [
 const pizzas = [
   {
     title: 'Margarita',
-    price: '€6',
+    price: '€7',
     tags: 'Salsa nápole de la casa, queso mozzarella y orégano.',
   },
   {
@@ -382,4 +381,19 @@ const awards = [
   },
 ];
 
-export default { bebidasCalientes, bebidasRefrescantes, cocktails, awards, breakfast, entradas, almuerzo, pizzas, postres, bebidas, promos, shots };
+const data = {
+  bebidasCalientes,
+  bebidasRefrescantes,
+  cocktails,
+  awards,
+  breakfast,
+  entradas,
+  almuerzo,
+  pizzas,
+  postres,
+  bebidas,
+  promos,
+  shots,
+};
+
+export default data;

@@ -10,7 +10,7 @@ import { images } from "../../constants";
 import "./Gallery.css";
 
 const galleryImages = [
-  images.gallery01,
+  "https://drive.google.com/file/d/1N0nKLvfuZShttgpruQcl82VSnd_YmEDD/preview",
   images.gallery02,
   images.gallery03,
   images.gallery04,
@@ -33,14 +33,10 @@ const Gallery = () => {
     <div className="app__gallery flex__center" id="gallery">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Photo Gallery</h1>
+        <h1 className="headtext__cormorant">Galeria de Fotos</h1>
         <p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          Descubre los momentos únicos y la belleza de nuestro entorno. Cada imagen cuenta una historia de sabores, naturaleza y experiencias inolvidables.
         </p>
-        <button type="button" className="custom__button">
-          View More
-        </button>
       </div>
 
       <div className="app__gallery-images">
@@ -49,9 +45,11 @@ const Gallery = () => {
             <div
               className="app__gallery-images_card flex__center"
               key={`gallery_image-${index + 1}`}
-            >
-              <img src={image} alt="gallery" />
-              <BsInstagram className="gallery__image-icon" />
+            > <iframe src={image} allow="autoplay" alt="gallery" title="gallery" className="gallery__image">
+              </iframe>
+              <a href="https://www.instagram.com/cimabarmc/" className="gallery__image-icon" target="_blank" rel="noopener noreferrer">
+                <BsInstagram />
+              </a>
             </div>
           ))}
         </div>

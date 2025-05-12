@@ -7,20 +7,18 @@ import "./Header.css";
 const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <div className="app__wrapper_info">
-      <SubHeading title="Chase the new flavour" />
-      <h1 className="app__header-h1">The Key To Fine Dining</h1>
+      <SubHeading title="Cerca de Caracas" />
+      <h1 className="app__header-h1">En la Cima de la Montaña</h1>
       <p className="p__opensans" style={{ margin: "2rem 0" }}>
-        Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat
-        morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet
-        tellus
+        Vive una experiencia única rodeado de la majestuosidad de la montaña. Sal de la rutina de Caracas, a tan solo 20 minutos...
       </p>
       <button type="button" className="custom__button">
-        Explore Menu
+        Explora el Menu
       </button>
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.welcome} alt="header img" />
+      <img src={images.pizza} alt="header img" />
     </div>
   </div>
 );
